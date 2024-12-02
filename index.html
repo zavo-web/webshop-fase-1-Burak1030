@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Webshop.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gymshop</title>
+</head>
+
+<body id="body">
+    <h1 id="titel">
+        Gymshop
+    </h1>
+    <div class="flex-container">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn4_Oq-ja6tnt1_kBpODkPndzj5uXxhe-uqg&s"
+        alt="Logo webshop" width="200" height="150">
+        
+    <div class="dropdown">
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+                <a href="#Creatine.html">Creatine</a>
+                <a href="#Wheprotein">Wheyprotein</a>
+                <a href="#Pre-workout">Pre-workout</a>
+            </div>
+
+    </div>
+    </div>
+    <div class="flex-container">     
+        <img id="creatine" src="https://biosuperdeal.be/UserFiles/images/products/creatine_monohydate_500_gram__2021__1.jpg"
+        alt="Logo Creatine" width="100" height="100">
+        <img id="Wheyprotein" src="https://m.media-amazon.com/images/I/418FT93kkzL._AC_.jpg"
+        alt="Logo Whey protein" width="100" height="100">
+        <img id="Pre-workout" src="https://m.media-amazon.com/images/I/61lZAyFLdjL._AC_UF894,1000_QL80_.jpg"
+        alt="Logo Pre-workout" width="100" height="100">        
+    </div>
+
+
+    <div class="flex-container">
+        <h1 id="creatine1">
+            Creatine
+            13,99€
+        </h1>
+        
+        <h1 id="Wheyprotein1">
+            Whey protein
+            18,99€
+        </h1>
+        <h1 id="Pre-workout1">
+            Pre-workout
+            11,99€
+        </h1>    
+    </div>
+    <input type="checkbox" id="sidebar-toggle" hidden />
+    <label for="sidebar-toggle" class="sidebar-button">Filters</label>
+
+    <article class="lidmaatschap">
+      <header>
+          <h2>Word Premium Lid!</h2>
+      </header>
+      <p>Als premium lid krijg je exclusieve voordelen, zoals:</p>
+      <ul>
+          <li>Gratis verzending op alle bestellingen</li>
+          <li>Toegang tot speciale aanbiedingen</li>
+          <li>Gratis trainingsschema's en voedingsadviezen</li>
+          <li>Kortingsbonnen en sneller aflevering</li>
+      </ul>
+      <footer>
+          <p>Slechts <strong>€9,99 per maand</strong>!</p>
+          <button onclick="window.location.href='premium.html'" 
+          class="drukknop">Word Premium Lid</button>
+      </footer>
+  </article>
+  
+    <div class="sidenav">
+      <a href="creatine.html">creatine</a>
+      <a href="wheyprotein.html">wheyprotein</a>
+      <a href="pre-workout.html">pre-workout</a>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+          <div id="contact" class="contact-info">
+            <h2>Contactinformatie</h2>
+            <p>Email: gym.shop@gmail.com</p>
+            <p>Telefoon: +32 322 32 32 32</p>
+            <p>Adres: straatsstraat</p>
+          </div>
+  
+          <div class="contact-form">
+            <h2>Stuur ons een bericht</h2>
+            <form action="#" method="post">
+              <input type="text" name="name" placeholder="Naam" required />
+              <input type="email" name="email" placeholder="Email" required />
+              <textarea
+                name="message"
+                placeholder="Bericht"
+                rows="4"
+                required
+              ></textarea>
+              <button type="submit">Verzenden</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+</body>
+
+</html>

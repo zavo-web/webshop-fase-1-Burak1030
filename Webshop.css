@@ -53,7 +53,7 @@
   border: 15px solid blue;
   padding: 50px;
   margin: 20px;
-  box-shadow: 10px 10px lightblue; 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 #Wheyprotein {
@@ -62,7 +62,7 @@
   border: 15px solid blue;
   padding: 50px;
   margin: 20px;
-  box-shadow: 10px 10px lightblue; 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 #Pre-workout {
@@ -71,7 +71,7 @@
   border: 15px solid blue;
   padding: 50px;
   margin: 20px;
-  box-shadow: 10px 10px lightblue;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center; 
 }
 #creatine1 {
@@ -80,7 +80,7 @@
   border: 15px solid blue;
   padding: 50px;
   margin: 20px;
-  box-shadow: 10px 10px lightblue; 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 #Wheyprotein1 {
@@ -89,7 +89,7 @@
   border: 15px solid blue;
   padding: 50px;
   margin: 20px;
-  box-shadow: 10px 10px lightblue; 
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
 #Pre-workout1 {
@@ -98,7 +98,7 @@
   border: 15px solid blue;
   padding: 50px;
   margin: 20px;
-  box-shadow: 10px 10px lightblue;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center; 
 }
 .sidebar-button {
@@ -195,4 +195,53 @@
   border: none;
   border-radius: 5px;
   resize: none;
+}
+
+.lidmaatschap {
+  background-color: #f0f8ff;
+  border: 2px solid #1e1ec8;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  margin: 20px auto;
+  width: 80%;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.lidmaatschap h2 {
+  color: #1e1ec8;
+  font-size: 1.8em;
+  margin-bottom: 10px;
+}
+
+.lidmaatschap p {
+  font-size: 1.2em;
+  color: #333;
+}
+
+.lidmaatschap ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+}
+
+.lidmaatschap ul li {
+  margin: 5px 0;
+  font-size: 1em;
+  color: #555;
+}
+
+.drukknop {
+  background-color: #1e1ec8;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.drukknop:hover {
+  background-color: #1414a6;
 }
