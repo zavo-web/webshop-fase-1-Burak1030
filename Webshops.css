@@ -47,7 +47,7 @@
   text-align: center;
 }
 
-#creatine {
+.creatine {
   background-color: rgb(255, 255, 255);
   width: 100px;
   border: 15px solid blue;
@@ -56,7 +56,7 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-#Wheyprotein {
+.Wheyprotein {
   background-color: rgb(255, 255, 255);
   width: 100px;
   border: 15px solid blue;
@@ -65,7 +65,7 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-#Pre-workout {
+.Pre-workout {
   background-color: rgb(255, 255, 255);
   width: 100px;
   border: 15px solid blue;
@@ -74,7 +74,7 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center; 
 }
-#creatine1 {
+.creatine1 {
   background-color: rgb(255, 255, 255);
   width: 100px;
   border: 15px solid blue;
@@ -83,7 +83,7 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-#Wheyprotein1 {
+.Wheyprotein1 {
   background-color: rgb(255, 255, 255);
   width: 100px;
   border: 15px solid blue;
@@ -92,7 +92,7 @@
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
   text-align: center;
 }
-#Pre-workout1 {
+.Pre-workout1 {
   background-color: rgb(255, 255, 255);
   width: 100px;
   border: 15px solid blue;
@@ -172,13 +172,13 @@
 
 .contact-info h3,
 .contact-form h3 {
-  font-size: 1,5em;
+  font-size: 24px;
   margin-bottom: 5px;
 }
 
 .contact-info h2,
 .contact-form h2 {
-  font-size: 1,5em;
+  font-size: 24px;
   margin-bottom: 1px;
 }
 
